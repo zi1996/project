@@ -1,0 +1,114 @@
+.course {
+    width: 18rem;
+    height: 22rem;
+    border-radius: 10px;
+    border: $lightGray 1px solid;
+
+    &_tombnail {
+        width: 100%;
+        height: 9rem;
+        border-radius: 10px;
+        background-image: url(/app/assets/resource/wordpress.jpg);
+    }
+
+    &_description {
+        padding: 1rem;
+        padding-bottom: 0;
+        font-weight: 600;
+    }
+
+    &_learners_avatar{
+        padding-left: 1rem;
+    }
+
+    &_learners_name {
+        font-size: 0.7rem;
+        color: &deepGray;
+    }
+}
+
+
+.course:hover {
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+#top-courses-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course_length {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: $lightGray;
+    font-size: 0.6rem;
+    gap:  0.5rem;
+
+    img {
+        width: 15px;
+    }
+
+    &_time {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.25rem;  
+    }
+
+    &_lessons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.25rem;
+    }
+
+}
+
+.course-priceandlikes {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $deepGray;
+    font-size: 0.6rem;
+    border-top: $lightGray 1px solid;
+    
+    &-prices {
+        color: $strongRed;
+        font-weight: 600;
+    }
+
+    img {
+        width: 15px;
+        border: $lightGray 1px solid;
+        border-radius:15px;
+    }
+
+}
+
+.likesandsold {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.25rem;
+
+    &-stars {
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        gap: 0.25rem;
+    }
+
+    &-sold {
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        gap: 0.25rem;
+    }
+
+}

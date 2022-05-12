@@ -1,0 +1,19 @@
+
+@import "base/_variables";
+@import "base/_global";
+
+@import "modules/_btn";
+@import "modules/_navigation.css";
+@import "modules/_header.css";
+@import "modules/_page-section";
+@import "modules/_headings";
+@import "modules/_wrapper";
+@import "modules/_opportunities";
+@import "modules/_categories";
+@import "modules/_course";
+@import "modules/_instructors";
+@import "modules/_blogs";
+@import "modules/_last-section";
+@import "modules/_footer.css";
+
+

@@ -1,0 +1,84 @@
+.header {
+    
+    transform: translate(0, -7%);
+    height: 30rem;
+    background-image: url(../resource/education.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.header-text {   
+    color: #fff;
+    transform: translate(60px, 8.5rem);
+    max-width: 1200px;
+
+    &_large {
+        font-size: 1.5rem;
+    }
+
+    &_subtitle {
+        font-size: 0.9rem;
+    }
+
+    &__buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}
+
+.header-text__search-bar{
+    input {
+        width: 25%;
+    }
+}
+
+.header-searchbar {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.btn--submit {
+    transform: translate( -5rem , 0);
+}
+
+.avatar{
+    max-width: 100%;
+    margin-top: 1rem;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0;
+      
+
+    img {
+        width: 25px;
+        border: #fff 2px solid;
+        border-radius: 1rem;
+    }
+
+    &_picture-first{
+        transform: translateX(-10px);
+    }
+    
+    &_picture-second{
+        transform: translateX(-20px);
+    }
+
+    &_picture-third{
+        transform: translateX(-30px);
+    }
+
+
+    &_picture-fourth{
+        transform: translateX(-40px);
+    }
+
+
+    &_feedback{
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,44 @@
+.btn{
+    color: #fff;
+    background-color: $strongRed ;
+    padding: 0.6rem 2rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+
+    &--signup{
+        padding: 0.2rem 1.5rem;
+    }
+
+    &--submit {
+        padding: 0.4rem 2rem;
+        position: absolute;
+        transform: translate( -5rem , 0);
+    }
+
+    &--play {
+        padding: 0.6rem 0.6rem 0.4rem;
+        img {
+            width: 0.6rem;
+        }
+    }
+
+    &-skill {
+        border-radius: 0;
+        background-color: #FFFF00;
+        color: #000;
+
+    }
+
+    &--get-started {
+        background-color: #fff;
+        color: $strongRed;
+    }
+}
+
+.btn:hover{
+    background-color: $weakRed;
+}
+
+.btn-skill:hover {
+    background-color: #FFFF8A;
+}

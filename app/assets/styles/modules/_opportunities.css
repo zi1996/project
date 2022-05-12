@@ -1,0 +1,47 @@
+.opportunities {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+    gap: 1rem;
+    
+    h3{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.7rem;
+    }
+    
+    &_icon{
+        width: 4rem;
+        background-color: 	rgba(255,192,203, 0.3);
+        border-radius: 2rem;
+        padding: 1rem 0.05rem;
+        display: flex;
+        justify-content: center;
+        
+
+        img{
+            width: 2rem;
+        }
+    }
+}
+
+#opportunity-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+
+}
+
+.opportunities:hover {
+    background-color: $strongRed;
+    color: #fff;
+}

@@ -1,0 +1,61 @@
+.blog {
+    width: 18rem;
+    height: 22rem;
+    
+    border-radius: 10px;
+    border: $lightGray 1px solid;
+
+    &_tombnail {
+        width: 100%;
+        height: 9rem;
+        border-radius: 10px;
+        background-image: url(/app/assets/resource/wordpress.jpg);
+    }
+
+    &-writer {
+        padding-left: 1rem;
+    }
+
+    &_description {
+        font-size: 0.8rem;
+        padding-bottom: 0;
+        font-weight: 600;
+        padding: 1rem;
+    }
+
+    &-detais {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 0.6rem;
+    }
+
+   
+
+    &-writer_name {
+        font-size: 0.7rem;
+        color: &deepGray;
+    }
+    
+    
+}
+
+
+.blog:hover {
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+#blogs-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detail-link{
+    color: $strongRed;
+    font-size:0.7rem;
+}
+
+.time-stamp  {
+    font-size: 0.6rem;
+    color: $lightGray;
+}
